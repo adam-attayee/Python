@@ -2,8 +2,6 @@ import random
 from game_data import game_data
 import game_art
 
-# CURRENT_SCORE = 0
-
 def generate_random_index(iterable):
     """This function returns a random number to be used as the index of each random item in the game"""
     random_index = random.randint(0,len(iterable)-1)
