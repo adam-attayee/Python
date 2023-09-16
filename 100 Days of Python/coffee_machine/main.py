@@ -34,7 +34,7 @@ resources = {
 # TODO: check if coins provided is sufficient for the order
 def payment_success(num_quarters, num_dimes, num_nickels, num_pennies):
     total_payment = (num_quarters * 0.25) + (num_dimes * 0.10) + (num_nickels * 0.05) + (num_pennies * 0.01)
-    return total_payment - price
+    return round(total_payment - price, 2)
 
 
 # TODO: Check resources are sufficient for the order
