@@ -1,17 +1,3 @@
-# import colorgram
-#
-# color_palette = colorgram.extract("image.jpg", 30)
-#
-# color_list = []
-#
-# for i in range(len(color_palette)):
-#     color = color_palette[i].rgb
-#     r = color.r
-#     g = color.g
-#     b = color.b
-#     rgb = (r, g, b)
-#     color_list.append(rgb)
-
 import turtle
 import random
 
@@ -19,7 +5,7 @@ color_list = [(198, 13, 32), (248, 236, 25), (40, 76, 188), (244, 247, 253), (39
 
 turtle.colormode(255)
 tim = turtle.Turtle()
-
+tim.hideturtle()
 
 def set_position(reposition_y):
     x_coordinate = -250
